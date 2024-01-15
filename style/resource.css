@@ -1,0 +1,103 @@
+/* ------------work sans font google------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+    padding: 20px 25px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+}
+
+/* --------------------header-------------------- */
+header {
+    padding: 50px 240px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-titel {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* --------------------Banner content-------------------- */
+.banner-contenta {
+    max-width: 50rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.banner-titel {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-discription {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+.tital-img{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+/* --------------------responsive Midia mobil devices-------------------- */
+
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+/* --------------------responsive Midia medium devices-------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
